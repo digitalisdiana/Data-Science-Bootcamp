@@ -1,0 +1,408 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 11 12:18:00 2021
+
+@author: digitalisdiana
+
+DSI Week1_Day1_Variables and Operators
+
+"""
+
+# EXERCISE 1
+
+## a. Déclarer une variable avec comme identificateur ​nom et comme valeur votre nom de famille ;
+nom = "Mbodj"
+
+## b. Créer une variable ​prenom​ et lui assigner votre ​premier prenom​ ;
+prenom = "Aminata"
+
+## c. Créer une variable ​autres_prenoms et lui assigner vos ​autres prénoms, ou un texte vide sinon ;
+autres_prenoms = "Ndiaye"
+
+## d. Déclarer une variable et lui affecter votre âge ;
+age = 18
+
+## e. Créer une variable et lui attribuer votre taille en mètre ;
+taille = 1.90
+
+## f. Déclarer une variable et y stocker le nombre de vos enfants ;
+number_of_kids = 21
+
+## g. Créer une variable et y mettre votre réponse booléenne (binaire) à l’affirmation ​« j’ai au moins un enfant. » ;
+at_least_one_kid = True
+
+## h. Déclarer une variable et y enregistrer votre réponse booléenne (binaire) à l'énoncé (proposition) suivante ​« j’ai au moins un animal de compagnie. » ;
+at_least_one_pet = False
+
+
+# EXERCISE 2
+
+## a. Créer une variable ​mot​ et y mettre le mot «​ mErCi» ;
+word = "mErCi"
+
+## b. Appliquer la méthode (ou fonction) prédéfinie dans python pour récupérer la longueur de la chaîne contenue dans la variable précédente et la stocker dans un nouvelle variable ​longueur_mot ;​
+word_length = len(word)
+
+## c. Mettre le contenu de la variable ​mot en minuscule et le stocker dans un nouvelle variable ​min_mot ​;
+word_lower = word.lower()
+print(word_lower)
+
+
+## d. Mettre le contenu de la variable ​mot en majuscule et le stocker dans un nouvelle variable ​maj_mot​;
+word_upper = word.upper()
+print(word_upper)
+
+## e. Appliquer la méthode (ou fonction) prédéfinie dans python pour que la chaîne contenue dans la variable maj_​mot n’ait que le premier caractère majuscule et le stocker dans un nouvelle variable ​bon_mot ;​
+
+right_word = word_upper.capitalize()
+print(right_word)
+
+## f. Créer une variable ​remerciement contenant le texte multiligne ci-dessous et la formater avec la fonction prédéfinie dans python de sorte à positionner le bon orthographe du mot ​«m​ erci​» aux (02) deux emplacements indiqués par ### :« ### beaucoup pour cette balade, elle était intéressante. Mon amis également vous dira ### quand il vous verra.»
+remerciement = "{} beaucoup pour cette balade, elle était intéressante. Mon ami également vous dira {} quand il vous verra.".format(right_word, word_lower)
+print(remerciement)
+
+
+# EXERCISE 3
+###Nous allons réaliser quelques opérations de gestion de stock commercial d’une boulangerie installée sur la Lune : La quantité initial de pain dans la boulangerie est : ​stock_pain_initial = 300 ;
+stock_pain_initial = 300
+
+###La quantité de pain livrée le Lundi est : ​livraison_lundi = 100 ;
+livraison_lundi = 100
+
+## a. Ajouter la livraison du lundi au stock ;
+nouveau_stock = stock_pain_initial + livraison_lundi
+print(nouveau_stock)
+
+## b. 20% du stock de pain est vendu pour la fête de Tabaski : recalculer (mettre à jour) le stock de pain ;
+stock_apres_tabaski = nouveau_stock - (nouveau_stock * 0.2)
+print(stock_apres_tabaski)
+
+## c. Retirer les 50 pains achetés par un client pour une cérémonie ;
+la_cinquantaine = stock_apres_tabaski - 50
+
+## d. La boulangerie reçoit une livraison équivalente à 10% du stock. Combien reste t’il de pain ? : Calculer et afficher le stock final de pain ;
+stock_final = la_cinquantaine + (la_cinquantaine * 0.1)
+print(stock_final)
+
+
+# EXERCISE 4
+
+###Modifions le texte contenu dans la phrase variable.
+phrase = "si tu Penses comme moi, tU es mon frère. Si tu ne penses pas comme moi, tu es deux fois MON frère, Car tu m'ouvres un autre monde."
+
+## a. Imprimer cette phrase correctement avec une majuscule au début et le reste en minuscule
+new_phrase = phrase.capitalize()
+
+## b. Compte le nombre d’occurence du mot “frère”
+
+frere_count = phrase.count("frère")
+
+# EXERCISE 5
+###Imprimer un message qui reprend les variables suivantes suivant le format : “Fatou à ouvert la page “​https://www.dit.sn​ à 20:50”.
+username = "Fatou" 
+time = "20:50"
+url = "​https://www.dit.sn​"
+
+message = "{} a ouvert la page : {} à {}.".format(username, url, time)
+print(message)
+
+
+# EXERCISE 6
+#Demander à l’utilisateur (input) la valeur d’un prix en euro et lui donner la conversion en FCFA. Info :​1euro = 655 Francs FCFA
+
+le_nombre = print(input("Quel somme souhaitez-vous convertir? >))
+
+print("Votre somme fait {} Euros!".format(le_nombre/655))
+
+# EXERCISE 7 
+a = 10
+b = “10” 
+#c=a+b
+                        
+## a. Exécuter l’instruction suivante print(a + b) ;
+print(a + b)
+
+## b. Modifier le type de a pour qu’il n’y ait pas d’erreur et refaire l’addition ;
+
+a = "10"
+b= "10"
+print(a + b)
+
+## c. Modifier le type de b pour qu’il n’y ait pas d’erreur et refaire l’addition ;
+
+a = 10
+b = 10
+print(a + b)
+                        
+
+# EXERCISE 8
+
+moctar, patrick, fatou, isabelle = 25, 35, 24, 40
+
+## a. Ecrire du code qui affiche “True” si moctar est plus agé que fatou ;
+if moctar > fatou :
+    print("True")
+else :
+    print("False")
+                        
+                        
+## b. Ecrire du code qui affiche “True” si moctar est plus agé que fatou et plus jeune que patrick ;
+    
+if patrick > moctar > fatou :
+    print("True")
+else :
+    print("False")
+    
+## c. Ecrire du code qui affiche “True” si moctar est plus agé que patrick et isabelle plus agée que fatou ;
+if moctar > patrick and isabelle > fatou :
+    print("True")
+else :
+    print("False")
+
+
+# EXERCISE 9
+
+###Nous allons manipuler du texte. NB​: Vous trouverez le texte à la suite des étapes vous devrez le mettre en texte multiligne dans votre code.
+###Voici les étapes, affichez un message formaté pour chacune d’elles :
+                        
+texte = """En France, l'apparition des premiers articles de presse coïncide avec le développement de l'imprimerie, qui permet de diffuser des feuilles volantes comportant des « nouvelles ». À partir du xve siècle, les « occasionnels », surtout vendus par colportage, se composent d'un ou plusieurs textes consacrés à un événement (bataille, célébration, décès d'une personnalité, etc.) et illustrés par des gravures sur bois.
+Les ancêtres des publications de presse telles qu'on les connaît aujourd'hui datent du début du xviie siècle, avec les premières gazettes qui rendent compte plus ou moins régulièrement de l'actualité dans des articles distincts. En 1631, La Gazette de Théophraste Renaudot publie des nouvelles de l'étranger et de la Cour. Le ton de ses articles étant jugé trop neutre ou trop soumis au pouvoir, d'autres publications font leur apparition, privilégiant les articles de commentaires. La Révolution française, qui consacre
+￼￼￼
+￼￼￼« la libre communication de la pensée et des opinions », permet à tout citoyen d'écrire et d'imprimer librement. Les critiques et les prises de position constituent alors l'essentiel des articles de l'époque.
+La Révolution industrielle et la loi sur la liberté de la presse du 29 juillet 1881 vont engendrer une nouvelle forme de journalisme. Les échos, les billets et les brèves cohabitent dans les journaux avec un nouveau genre d'article, le reportage. À la fin du xixe siècle, les quotidiens atteignent des tirages spectaculaires, Le Petit Journal (quotidien), Le Petit Parisien et Le Matin dépassant le million d'exemplaires. L'impact de certains articles est alors considérable, comme le célèbre J'accuse d'Émile Zola paru dans L'Aurore à l'occasion de l'affaire Dreyfus, ou l'enquête d'Albert Londres sur le bagne de Cayenne parue dans Le Petit Parisien."""
+
+## a. Afficher la longueur du texte;
+print(len(texte))
+
+## b. Compter (avec ​.count()​ ) le nombre de fois que le caractère ​“.” ​est utilisé dans le texte;
+print(texte.count("."))
+                        
+## c. Compter le nombre de fois que le caractère ​“a” ​est utilisé dans le texte;
+print(texte.count("a"))
+
+## d. Compter le nombre de fois que le caractère ​“e” ​est utilisé dans le texte;
+print(texte.count("e"))
+
+## e. Découper le texte en morceaux ​;
+print(texte.split(" "))
+
+## f. Compter le nombre de fois que le caractère ​“i” ​est utilisé dans le texte;
+print(texte.count("i"))
+
+## g. Découper le texte en phrases ​;
+
+print(texte.split("."))
+
+## h. Remplace le caractère ​“e”​par caractère ​“#”​;
+texte.replace("e", "#")
+
+## i. Récupérer le (1er) premier morceau du texte découpé ;
+decoupe = texte.split(" ")
+decoupe[0]
+
+## j. Récupérer le (60e) soixantième morceau du texte découpé ;
+decoupe[59]
+
+## k. Récupérer le dernier morceau du texte découpé ;
+decoupe[-1]
+
+
+
+# EXERCISE 10
+                        
+###Nous allons convertir le type des nombres suivants puis formater un message à afficher indiquant 
+#-le nombre initial, 
+#-son type, 
+#-le changement effectué (entier vers réel ou l’inverse), 
+#-le nouveau nombre et 
+#-le type du nouveau nombre.
+
+## a. Changer ​10​en ​réel;​
+first = 10
+float_first = float(first)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(first)),float_first,(type(float_first))))
+
+## b. Changer ​3.14​en ​entier​;
+second = 3.14
+whole_second = int(second)
+
+print("The second number was a {}; now it looks like {} and is a {}.".format((type(second)),whole_second,(type(whole_second))))
+
+## c. Changer ​145​en ​réel​;
+third = 145
+float_third = float(third)
+
+print("The third number was a {}; now it looks like {} and is a {}.".format((type(third)),float_third,(type(float_third))))
+
+## d. Convertir ​1374.15784​en ​entier​;
+fourth = 1374.15784​
+whole_fourth = int(fourth)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(fourth)),whole_fourth,(type(whole_fourth))))
+
+## e. Changer ​72548846​en ​réel​;
+fifth = 72548846​
+f_float = float(fifth)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(fifth)),f_float,(type(f_float))))
+
+## f. Changer ​433628836666842.34345​en ​entier​;
+sixth = 433628836666842.34345​
+s_whole = int(sixth)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(sixth)),s_whole,(type(s_whole))))
+
+## g. Changer ​273574​en ​réel​;
+seventh = 273574​
+f_seventh = float(seventh)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(seventh)),f_seventh,(type(f_seventh))))
+
+## h. Changer ​8843434547.238246​en ​entier​;
+eighth = 8843434547.238246​
+e_whole = int(eighth)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(eighth)),e_whole,(type(e_whole))))
+
+## i. Changer ​8314​en ​réel​;
+ninth = 8314​
+n_float = float(ninth)
+
+print("The first number was a {}; now it looks like {} and is a {}.".format((type(ninth)),n_float,(type(n_float))))
+
+
+# EXERCISE
+                        
+###Nous allons faire des contrôles de flux.
+                        
+ali, alfred, john, dave = 11, 7, 16, 40
+###Voici les étapes de votre programme, pour chacune d’elles affichez un message formaté :
+
+## a. Demander à l’utilisateur d’entrer son âge ;
+while True :
+    user_age = int(input("How old are you ? :>> "))
+
+## b. Vérifier si l'utilisateur a le même âge ​qu’ali,​​alfred,​​john​ou ​dave​;
+    if user_age == ali or user_age == alfred or user_age == john or user_age == dave :
+        print("Vous avez le meme age qu'un de nos participants")
+        break
+    else :
+        print("Pas de correspondance")
+
+## c. Vérifier si l'utilisateur est plus âgé que (01) l’une de nos (04) quatre références (ali, alfred, john, dave);
+
+while True :
+    user_age = int(input("How old are you ? :>> "))
+    if user_age > ali or user_age > alfred or user_age > john or user_age > dave :
+        print("Vous etes plus age que au moins un(e) de nos participants")
+        break
+    else :
+        print("Vous etes plus jeune que toutes les autres personnes du groupe")    
+        
+## d. Vérifier si l'utilisateur est plus âgé que (03) trois de nos (04) quatre références
+while True :
+    if user_age > john :
+         print("Vous etes plus age que trois de nos participants")
+        break
+    else :
+        print("Vous faites parti des trois plus jeunes membres de nos participants")
+        
+        
+## e. Vérifier si l'utilisateur est plus âgé que (02) deux de nos (04) quatre références;
+
+## f. Vérifier si l'utilisateur a un âge différent de celui de chacune de nos(04) quatre références;
+
+## g. Vérifier si l'utilisateur est moins âgé que (01) l’une de nos (04) quatre références;
+
+## h. Vérifier si l'utilisateur est moins âgé que (03) trois de nos (04) quatre références;
+
+## i. Vérifier si l'utilisateur est moins âgé que (02) deux de nos (04) quatre références;
+
+# EXERCISE 13
+###Petit exercice en anglais :
+###​TODO​: print a log message with the variables below. It should have the format: Ophelia checked the page http://shakespeare.com/play/Hamlet/casting at 18:45.
+
+username = ​"Robot"
+hour = ​"09:23"
+url = ​"http://shakespeare.com/play/asyoulikeit/casting" 
+access = ​“checked the page"
+
+print("{} {} the page : {} at {}.".format(username, access, url, hour))
+
+# EXERCISE 14
+###Ecrire un programme qui demande l’année de naissance à l’utilisateur et retourne son âge
+from datetime import date
+
+current_year = date.today().year
+user_birthyear = print(input("What year were you born?"))
+user_age = current_year - int(user_birthyear)
+
+print("You are {} years old!".format(user_age))
+
+# EXERCISE 15
+###Ecrire un programme qui demande la date de naissance à l’utilisateur et qui retourne le nombre de jours qu’il a vécu jusqu’à aujourd’hui
+                        
+user_birthyear = int(input("Please enter your year of birth here : >"))
+user_birthmonth = int(input("Please enter your month of birth here : >"))
+user_birthday = int(input("Please enter your day of birth here : >"))
+
+
+user_birthdate = datetime.date(user_birthyear, user_birthmonth, user_birthday)
+
+current_date = date.today()
+number_of_days_alive = current_date - user_birthdate
+
+print("You have been alive for {} days!".format(number_of_days_alive))
+ 
+
+# EXERCISE 16
+###A partir de la fréquence des différentes lettres en français (voir ici : https://www.apprendre-en-ligne.net/crypto/stat/francais.html) . Analysez le texte secret ci-dessous et décryptez le.
+
+secret = "STL DTLLAUTL LTEKTML LT RTEGRTFM YAEOSTDTFM LO XGWL EGFFAOLLTN SA YKTJWTFET RTL STMMKTL RAFL WFT SAFUWT RGFFTT”
+ 
+characters_list = [secret.split().strip(" ")]
+
+# EXERCISE 17
+###Définir un nombre entier entre 0 et 30
+###Demander à un utilisateur de le trouver en lui disant (trop petit, trop grand ou gagné)
+
+mon_nombre = 24
+while True :
+    user_guess = int(input("Choisissez un nombre entre 0 et 30 : >>"))
+    
+    if user_guess == mon_nombre:
+        print("BRAVO!")
+        break
+    
+    elif user_guess < mon_nombre:
+        print("Trop petit...try again")
+    else :
+        print("Trop grand... try again")
+    
+    
+# ALGORITHM : SOLVING THE SQUARE ROOT
+                        
+###Steps : 
+###1.Start with a guess, g 
+###2.If g*g is close enough to x, then g is a good approximation of the square root of x 
+###3.Otherwise, create a new guess by averaging g and x/g. I.e., 
+###Operation : g_new = (g_old + x/g_old)/2 
+###4.Using this new guess, go back to step 2
+                        
+precision_value = .5
+my_number = 36
+
+while True :
+    guess = float(input("Gimme some guessing : >>"))
+    
+    guess_squared = guess*guess 
+    if abs(guess_squared - my_number) < precision_value :
+        print(guess)        
+        print("You are in the vecinity")
+        break
+    else :
+        print(guess)
+        print("Not quite...")
+        guess = (guess + my_number/guess)/2
+ 
