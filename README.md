@@ -3,42 +3,42 @@ Scripts for solved exercises and mini-projects for 400h : Python, Data Visualisa
 
 ## DSI_Week_1_Python Programming Basics
 ### Day_1_Variables_and_Operators
-- 
-- 
-- 
+-
+-
+-
 ### Day_2_Data_Structures
-- 
-- 
-- 
+-
+-
+-
 ### Day_3_Control_Structures_and_Loops
-- 
-- 
-- 
+-
+-
+-
 ### Day_4_Funtions
-- 
-- 
-- 
+-
+-
+-
 ### Day_5_Files
-- 
-- 
-- 
+-
+-
+-
 ## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
 ### Day_1_OOP
-- 
-- 
-- 
+-
+-
+-
 ### Day_2_Numpy
-- 
-- 
-- 
+-
+-
+-
 ### Day_3_Web_Scraping_1
-- 
-- 
-- 
+-
+-
+-
 ### Day_4_Web_Scraping_2
-- 
-- 
-- 
+-
+-
+-
 ### Day_5_Matplotlib
 - 
 - 
