@@ -1,6 +1,5 @@
-# Data-Science-Bootcamp-Scripts
-Scripts for solved exercises and mini-projects.
-400h : Python, Data Visualisation, Web Scraping, Natural Language Processing, Data Engineering, Machine Learning, and Deep Learning
+Notebooks and scripts for exercises and mini-projects I am completing as part of Dakar Institute of Technology's Data Science Intensif Bootcamp.
+### 400h : Python, Data Visualization, Web Scraping, Natural Language Processing, Data Engineering, Machine Learning, and Deep Learning
 
 ## DSI_Week_1_Python Programming Basics
 ...
