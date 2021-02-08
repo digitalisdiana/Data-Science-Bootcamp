@@ -10,7 +10,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ## DSI_Week_3_Introduction to Machine Learning
 ...
 
-## DSI_Week_4_
+## DSI_Week_4_Relational Database Management Systems
 ...
 
 ## DSI_Week_5_
