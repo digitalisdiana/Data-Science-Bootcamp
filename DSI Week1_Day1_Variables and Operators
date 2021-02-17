@@ -272,7 +272,7 @@ n_float = float(ninth)
 print("The first number was a {}; now it looks like {} and is a {}.".format((type(ninth)),n_float,(type(n_float))))
 
 
-# EXERCISE
+# EXERCISE 11
                         
 ###Nous allons faire des contrôles de flux.
                         
@@ -308,18 +308,9 @@ while True :
     else :
         print("Vous faites parti des trois plus jeunes membres de nos participants")
         
-        
-## e. Vérifier si l'utilisateur est plus âgé que (02) deux de nos (04) quatre références;
 
-## f. Vérifier si l'utilisateur a un âge différent de celui de chacune de nos(04) quatre références;
 
-## g. Vérifier si l'utilisateur est moins âgé que (01) l’une de nos (04) quatre références;
-
-## h. Vérifier si l'utilisateur est moins âgé que (03) trois de nos (04) quatre références;
-
-## i. Vérifier si l'utilisateur est moins âgé que (02) deux de nos (04) quatre références;
-
-# EXERCISE 13
+# EXERCISE 12
 ###Petit exercice en anglais :
 ###​TODO​: print a log message with the variables below. It should have the format: Ophelia checked the page http://shakespeare.com/play/Hamlet/casting at 18:45.
 
@@ -328,9 +319,10 @@ hour = ​"09:23"
 url = ​"http://shakespeare.com/play/asyoulikeit/casting" 
 access = ​“checked the page"
 
-print("{} {} the page : {} at {}.".format(username, access, url, hour))
+formated_sentence = "{} {} the page : {} at {}.".format(username, access, url, hour)
+print(formated_sentence)
 
-# EXERCISE 14
+# EXERCISE 13
 ###Ecrire un programme qui demande l’année de naissance à l’utilisateur et retourne son âge
 from datetime import date
 
@@ -338,9 +330,10 @@ current_year = date.today().year
 user_birthyear = print(input("What year were you born?"))
 user_age = current_year - int(user_birthyear)
 
-print("You are {} years old!".format(user_age))
+formated_sentence = "You are {} years old!".format(user_age)
+print(formated_sentence)
 
-# EXERCISE 15
+# EXERCISE 14
 ###Ecrire un programme qui demande la date de naissance à l’utilisateur et qui retourne le nombre de jours qu’il a vécu jusqu’à aujourd’hui
                         
 user_birthyear = int(input("Please enter your year of birth here : >"))
@@ -356,14 +349,42 @@ number_of_days_alive = current_date - user_birthdate
 print("You have been alive for {} days!".format(number_of_days_alive))
  
 
-# EXERCISE 16
+# EXERCISE 15
 ###A partir de la fréquence des différentes lettres en français (voir ici : https://www.apprendre-en-ligne.net/crypto/stat/francais.html) . Analysez le texte secret ci-dessous et décryptez le.
-
 secret = "STL DTLLAUTL LTEKTML LT RTEGRTFM YAEOSTDTFM LO XGWL EGFFAOLLTN SA YKTJWTFET RTL STMMKTL RAFL WFT SAFUWT RGFFTT”
  
-characters_list = [secret.split().strip(" ")]
+def splitter(sentence):
+    split_list = [c for c in sentence if not c.isspace()]
+    return split_list
 
-# EXERCISE 17
+caracters_secret = splitter(secret)
+caracters_secret
+
+# Creating the dicionary for the letters to the values
+normal_letter_pourcentages = {"A" : 8.15,"B" : 0.97, "C" : 3.15, "D" : 3.73, "E" : 17.39, "F" : 1.12, "G" : 0.97, "H" : 0.85, "I" : 7.31, "J" : 0.45, "K" : 0.02, "L" : 5.69, "M" : 2.87, "N" : 7.12, "O" : 5.28, "P" : 2.80, "Q" : 1.21, "R" : 6.64, "S" : 8.14, "T" : 7.22, "U" : 6.38, "V" : 1.64, "W" : 0.03, "X" : 0.41, "Y" : 0.28, "Z" : 0.15}
+
+#Count frequency of letter occurence in secret sentence
+
+def frequencer(l):
+    secret_freq = {}
+    for element in l:
+        frequency = l.count(element)*len(l)/100
+        secret_freq[element] = frequency
+    return secret_freq
+
+frequency_dict = frequencer(caracters_secret)
+frequency_dict
+
+def comparator(d1, d2):
+    similarities = []
+    sway = 0.05
+    for (x, y), (x1, y1) in zip(d1.items(), d2.items()):
+        if d1[x] + sway <= d2[x1] > d1[x] + sway:
+            similarities.append(d2[x1])
+    return similarities
+
+
+# EXERCISE 16
 ###Définir un nombre entier entre 0 et 30
 ###Demander à un utilisateur de le trouver en lui disant (trop petit, trop grand ou gagné)
 
@@ -380,6 +401,7 @@ while True :
     else :
         print("Trop grand... try again")
     
+# EXERCISE 17
     
 # ALGORITHM : SOLVING THE SQUARE ROOT
                         
