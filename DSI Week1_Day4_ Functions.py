@@ -1,10 +1,3 @@
-## -*- coding: utf-8 -*-
-#"""
-#Created on Thu Jan 14 09:09:16 2021
-#
-#@author: digitalisdiana
-#"""
-
 #Exercice 1 : Calculs
 
 maliste = [3, 12, 16, 32, 54, 5, 23, 87, 98, 52, 99, 24]
