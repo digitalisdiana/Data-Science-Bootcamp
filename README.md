@@ -2,14 +2,18 @@
 Notebooks and scripts for exercises and mini-projects I am completing as part of Dakar Institute of Technology's Data Science Intensif Bootcamp.
 
 ## DSI_Week_1_Python Programming Basics
-###Solution(s) Manquante(s):
+###Day1
+####Solution(s) Manquante(s):
 Exercise 15
 
-## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
-###Solution(s) Manquante(s):
+###Day2
+####Solution(s) Manquante(s):
 Exercises 9 et 10
-###Besoin d'aide:
+####Besoin d'aide:
 Exercise 11
+
+## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
+...
 
 ## DSI_Week_3_Introduction to Machine Learning
 ...
