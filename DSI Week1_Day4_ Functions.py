@@ -162,7 +162,7 @@ print(mafacture)
 #Ecrire un ensemble de fonctions qui vont permettre de gérer la liste des concurrents du tour du Faso. 
 #Pour chaque joueur on va stocker le prénom, le nom, la nationalité, l'âge, le numéro ainsi que le nombre de points du concurrent.
 
-concurrents =[["Sadio", "Mane", "Senegalaise", 36, 27, 321],["Mahfouz", "Sani", "Niger", 29, 76, 234],["Brad", "Pitt", "Americaine", 62, 12, 143]]
+concurrents =[["Sadio", "Mane", "Senegalaise", 36, 27, 321],["Simon", "Sani", "Beninoise", 29, 76, 234],["Brad", "Pitt", "Americaine", 62, 12, 143]]
 
 def dict_concurrent(l):
     concurrents_tournoi = {}
@@ -182,7 +182,7 @@ print(les_concurrents)
 #￼￼a. Ecrire la fonction ajout() qui permet d’ajouter un concurrent
 
 
-newly_signed_in = [["Abass", "Ndao", "Senegalaise", 87, 23, 1],["Abubakar", "Ally", "Togo", 18, 18, 87],["Malik", "Whitefield", "Americaine", 62, 64, 843]]
+newly_signed_in = [["Abass", "Ndao", "Senegalaise", 87, 23, 1],["Vladimir", "Putin", "Russe", 18, 18, 87],["Harry", "Potter", "Anglaise", 62, 64, 843]]
 
 def ajout_concurrent(l):
     renewed_dict = dict_concurrent(l)
