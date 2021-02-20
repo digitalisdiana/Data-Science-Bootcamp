@@ -6,19 +6,9 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 *Help : exercises where my logic doesn't suffice me
 
 ## DSI_Week_1_Python Programming Basics
-### Day1
-#### Missing:
-Exercise 15
-
-### Day2
-#### Missing:
-Exercises 9 and 10
-#### Help:
-Exercise 11
-
-### Day3
-#### Missing:
-Exercises 7, 8, and 10
+### Day1 {Missing : Exercise 15}
+### Day2 {Missing : Exercises 9 and 10, Help : Exercise 11}
+### Day3 {Missing : Exercises 7, 8, and 10}
 
 ## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
 ...
