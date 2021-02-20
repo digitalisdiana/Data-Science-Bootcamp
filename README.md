@@ -1,7 +1,9 @@
 ### 400h : Python, Data Visualization, Web Scraping, Natural Language Processing, Data Engineering, Machine Learning, and Deep Learning
 Notebooks and scripts for exercises and mini-projects I am completing as part of Dakar Institute of Technology's Data Science Intensif Bootcamp.
 
-###### Work in progress; skipped exercises will be revisited. 
+#### Work in progress:
+######  "Missing" exercises will be resolved. 
+######  "Complete" exercises might be revisited. 
 
 ## DSI_Week_1_Python Programming Basics
 ### Day1 {Missing : Exercise 15}
@@ -18,11 +20,11 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ### Day5 Complete
 
 ## DSI_Week_3_Introduction to Machine Learning
-### Day1 
-### Day2 
+### Day1 Complete
+### Day2 Missing
 ### Day3 Complete
-### Day4 
-### Day5 
+### Day4 Complete
+### Day5 Complete
 
 ## DSI_Week_4_Relational Database Management Systems
 ...
