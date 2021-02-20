@@ -11,7 +11,8 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ### Day5 {Incomplete : Exercise 2, Missing : Exercises 3, 4, and 5 }
 
 ## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
-...
+### Day1 {Missing : Exercises 2, 3, and 4}
+### Day2 {Missing : Exercises 20 onwards}
 
 ## DSI_Week_3_Introduction to Machine Learning
 ...
