@@ -122,21 +122,53 @@ for to_be_guessed in range (1,30):
 #Faites évoluer votre robot avec des “input()” dans le plan en lui donnant une des 5 instructions suivantes : haut, bas, gauche, droite, fin. Le robot ne peut avancer que d’une seule unité à la fois.
 #Affichez après chaque mouvement la direction vers laquelle le robot pointe et sa position. Jusqu’à ce que l’utilisateur tape “fin” pour sortir du programme.
 
+x_rob, y_rob = 0, 0 
 
+while True :
+    request = input("Pour deplacer votre robot, veuillez entrer les instructions suivantes : Haut, Bas, Gauche, ou Droite. Pour l'arreter, tapez : Fin. \n > ").strip().capitalize()
+    commands = ["Haut", "Bas", "Gauche", "Droite", "Fin"]
+    
+    if request not in commands :
+       print("Instruction non-valide")
+       break 
+   
+    else :
+        if request == "Fin" :
+            print ("Vous etes au {}, {}. Merci d'avoir joué".format(x_rob, y_rob))
+            break
+        elif  request == "Haut" :
+            y_rob += 1
+            print ("Nouvelle position : {}, {}. \n".format(x_rob, y_rob))
+        elif request == "Bas":
+            y_rob -=1
+            print ("Nouvelle position : {}, {}. \n".format(x_rob, y_rob))
+        elif request == "Gauche":
+            x_rob -=1
+            print ("Nouvelle position : {}, {}. \n".format(x_rob, y_rob))
+        else :
+            x_rob +=1 
+            print ("Nouvelle position : {}, {}. \n".format(x_rob, y_rob))
 
 
 #Exercice 6 : Pyramide
-#Ecrire un programme qui affiche la figure suivante : *
+#Ecrire un programme qui affiche la figure suivante : 
+#*
 #**
 #***
 #****
-#￼￼￼￼￼***** 
+#***** 
 #**** 
 #*** 
 #**
 #*
-
-
+def star_count(x):
+    for i in range (0, x):
+        line = i * "*"
+        print("{} \n".format(line))
+#Reverse
+    for i in range (x, 0, -1):
+        line = i * "*"
+        print("{} \n".format(line))
 
 
 #Exercice 7 : Code de César
