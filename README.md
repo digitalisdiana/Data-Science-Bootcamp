@@ -1,7 +1,7 @@
 ### 400h : Python, Data Visualization, Web Scraping, Natural Language Processing, Data Engineering, Machine Learning, and Deep Learning
 Notebooks and scripts for exercises and mini-projects I am completing as part of Dakar Institute of Technology's Data Science Intensif Bootcamp.
 
-###### Work in progress; some exercises were skipped and will be revisited. 
+###### Work in progress; skipped exercises will be revisited. 
 *Missing : unsolved exercises
 *Help : exercises where my logic doesn't suffice me
 
