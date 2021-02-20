@@ -2,18 +2,18 @@
 Notebooks and scripts for exercises and mini-projects I am completing as part of Dakar Institute of Technology's Data Science Intensif Bootcamp.
 
 ###### Feel free to branch out and develop alternative solutions to any of these problems; specially those under :
-*Solution(s) Manquante(s) : exercises I skipped
-*Besoin d'aide : exercises where my logic doesn't suffice me
+*Missing : exercises I skipped
+*Help : exercises where my logic doesn't suffice me
 
 ## DSI_Week_1_Python Programming Basics
 ### Day1
-#### Solution(s) Manquante(s):
+#### Missing:
 Exercise 15
 
 ### Day2
-#### Solution(s) Manquante(s):
+#### Missing:
 Exercises 9 et 10
-#### Besoin d'aide:
+#### Help:
 Exercise 11
 
 ## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
