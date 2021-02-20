@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 12 10:52:33 2021
-
-@author: digitalisdiana
-"""
-
 #Exercice 1 : Liste de prix.
 #
 #a. Afficher la phrase complète :
