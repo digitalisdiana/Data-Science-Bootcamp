@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 18 15:13:53 2021
 
-@author: digitalisdiana
-"""
 import math 
 
 # EXERCISE 1
