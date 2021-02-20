@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 15 09:14:54 2021
-
-@author: digitalisdiana
-
-"""
-
-
 # EXERCISE 1: Poésie
 ###A partir du fichier “poesie.txt”
 ## a. Créer un fichier “mapoesie_01.txt” qui reprend l’ensemble de la poésie contenue dans le fichier “poesie.txt” en lui ajoutant à la fin une dernière ligne “Afin que le monde sache que je sais programmer en Python”
