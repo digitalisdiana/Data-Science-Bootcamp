@@ -73,21 +73,21 @@ my_contacts = [("nom,", "prenom,", "numero,", "email,", "etat\n"),
 ("Tomlinson,", "Louis,", "789,", "ltomlinson@gmail.com,", "OR\n"),
 ("Horan,", "Naill,", "101,", "nhoran@gmail.com,", "NY\n"),
 ("Bieber,", "Justin,", "112,", "jbieber@yahoo.com,", "CA\n"),
-("Diallo,", "Mouctar,", "131,", "mdiallo@gmail.com,", "NY\n"),
-("Sani,", "Mahfouz,", "415,", "msani@gmail.com,", "ID\n"),
+("Gibran,", "Kahlil,", "131,", "kgibran@gmail.com,", "NY\n"),
+("Trump,", "Donald,", "415,", "dtrump@gmail.com,", "ID\n"),
 ("Nsukami,", "Patrick,", "161,", "pnsukami@gmail.com,", "NJ\n"),
 ("Mane,", "Sadio,","718,", "smane@aol.com,", "CT\n"),
-("Ally,", "Abuubakar,", "192,", "aally@gmail.com,", "ID\n"),
+("Longbottom,", "Nevill,", "192,", "lnevill@gmail.com,", "ID\n"),
 ("Collins,", "Hope,", "021,", "hcollins@aol.com,", "CA\n")]
 
-with open("/Users/digitalisdiana/Documents/DSInt Scripts/contact_list.csv", "w+") as full_contacts :
+with open("/Users/digitalisdiana/Documents/DSInt_Scripts/contact_list.csv", "w+") as full_contacts :
     for line in my_contacts:
         full_contacts.writelines(line)
 
 ###from contact_list, create NY_contact_list
 
-with open("/Users/digitalisdiana/Documents/DSInt Scripts/NY_contacts.csv", "w+") as contacts_NY :
-    with open("/Users/digitalisdiana/Documents/DSInt Scripts/contact_list.csv", "r") as full_contacts :
+with open("/Users/digitalisdiana/Documents/DSInt_Scripts/NY_contacts.csv", "w+") as contacts_NY :
+    with open("/Users/digitalisdiana/Documents/DSInt_Scripts/contact_list.csv", "r") as full_contacts :
         for line in full_contacts:
             line = line.split(",")
             if line[-1] == "NY\n": #of if line[-1].strip() == "NY"
