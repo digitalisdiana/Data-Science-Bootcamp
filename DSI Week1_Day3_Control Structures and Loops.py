@@ -7,14 +7,14 @@ Created on Wed Jan 13 13:59:51 2021
 
 ##Exercice 1 : Multiples de 3 et 7
 ##Ecrire un programme qui affiche tous les nombres divisibles ​(nombre % 3 == 0)​ par 3 ou par 7 compris entre 100 et 850.
-#
-#number = 0
-#list_number = []
-#
-#for number in range (100,850):
-#    if number % 3 == 0 or number % 7 == 0:
-#        list_number.append(number)
-#print(list_number)
+
+number = 0
+list_number = []
+
+for number in range (100,850):
+    if number % 3 == 0 or number % 7 == 0:
+        list_number.append(number)
+    print(list_number)
 
 #Exercice 2 : Cotation service expédition
 #Binta est responsable d’une société de transport.
@@ -49,49 +49,49 @@ Scenario 1 : Calcul en entreprise. Par exemple, si on faisais payer le client ap
 #    print("L'expedition de votre colis vous coutera {}".format(prix_total))
 #else :
 #    print("Au moins mettez quelque chose sur la balance :D") #Pas necessaire mais fun
-#
-#"""
-#Scenario 2 : Calcul clientele. Par exemple, si le client paie au pesage et qu'il pese lui meme. Honor system. EXAMPLE DE PROGRAMME PAS DEMANDE :D
-#"""
-#prix_total = 0
 
-#while True :
-#    
-#    poids_du_colis = float(input("Veuillez entrer le poids de votre colis : "))
-#    prix_total = 0
-#
-#
-#    if 0 < poids_du_colis <= 2 :
-#        prix_total = poids_du_colis * 2000
-#        print("L'expedition de votre colis vous coutera {}".format(prix_total))
-#    elif 2 < poids_du_colis <= 5 :
-#        prix_total = poids_du_colis * 1500
-#        print("L'expedition de votre colis vous coutera {}".format(prix_total))
-#    elif 5 < poids_du_colis <= 10 :
-#        prix_total = poids_du_colis * 1350
-#        print("L'expedition de votre colis vous coutera {}".format(prix_total))
-#    elif 10 < poids_du_colis <= 50 :
-#        prix_total = poids_du_colis * 1000
-#        print("L'expedition de votre colis vous coutera {}".format(prix_total))
-#    elif poids_du_colis > 50:
-#        prix_total = poids_du_colis * 850
-#        print("L'expedition de votre colis vous coutera {}".format(prix_total))
-#    else :
-#        print("Au moins mettez quelque chose sur la balance :D") #Pas necessaire mais fun
-#        break
+"""
+Scenario 2 : Calcul clientele. Par exemple, si le client paie au pesage et qu'il pese lui meme. Honor system. EXAMPLE DE PROGRAMME PAS DEMANDE :D
+"""
+prix_total = 0
+
+while True :
+    
+    poids_du_colis = float(input("Veuillez entrer le poids de votre colis : "))
+    prix_total = 0
+
+
+    if 0 < poids_du_colis <= 2 :
+        prix_total = poids_du_colis * 2000
+        print("L'expedition de votre colis vous coutera {}".format(prix_total))
+    elif 2 < poids_du_colis <= 5 :
+        prix_total = poids_du_colis * 1500
+        print("L'expedition de votre colis vous coutera {}".format(prix_total))
+    elif 5 < poids_du_colis <= 10 :
+        prix_total = poids_du_colis * 1350
+        print("L'expedition de votre colis vous coutera {}".format(prix_total))
+    elif 10 < poids_du_colis <= 50 :
+        prix_total = poids_du_colis * 1000
+        print("L'expedition de votre colis vous coutera {}".format(prix_total))
+    elif poids_du_colis > 50:
+        prix_total = poids_du_colis * 850
+        print("L'expedition de votre colis vous coutera {}".format(prix_total))
+    else :
+        print("Au moins mettez quelque chose sur la balance :D") #Pas necessaire mais fun
+        break
 
 ##
 ###Exercice 3 : Multiples de 9
 ###Rédigez un programme qui affiche les nombres de 1 à 100 et qui affiche “Multiple trouvé” après chaque multiple de 9.
-#
-#nombre = 0
-#multiples_de_neuf = []
-#
-#for nombre in range (1,100):
-#    if nombre % 9 == 0:
-#        multiples_de_neuf.append(nombre)
-#
-#print(multiples_de_neuf)        
+
+nombre = 0
+multiples_de_neuf = []
+
+for nombre in range (1,100):
+    if nombre % 9 == 0:
+        multiples_de_neuf.append(nombre)
+
+print(multiples_de_neuf)        
 
     
     
