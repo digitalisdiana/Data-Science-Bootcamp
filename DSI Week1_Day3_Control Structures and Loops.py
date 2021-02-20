@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 13 13:59:51 2021
-
-@author: digitalisdiana
-"""
-
 ##Exercice 1 : Multiples de 3 et 7
 ##Ecrire un programme qui affiche tous les nombres divisibles ​(nombre % 3 == 0)​ par 3 ou par 7 compris entre 100 et 850.
 
