@@ -225,21 +225,36 @@ set2 = {30, 40, 50, 60, 70}
 #sentence = "In her entire life, Habiba has never seen such a big rain" .
 #b. À partir de la liste de caractères, retirez tous les doublons.
 
+def splitter(phrase):
+    split_list = [c for c in phrase if not c.isspace()]
+    return split_list
 
+
+spaceless_sent = splitter(sentence)
+spaceless_sent
+
+unique_char = set(spaceless_sent)
+unique_char
 
 
 #Exercice 7 : Doublons
 #Enlever les doublons dans la liste suivante et afficher la liste dédoublonnée.
-#pays = ['senegal', 'ghana', 'mali', 'burkina-faso', 'mali', 'kenya', 'senegal']
+pays = ['senegal', 'ghana', 'mali', 'burkina-faso', 'mali', 'kenya', 'senegal']
 
-
+unique_pays = set(pays)
+unique_pays
 
 
 #Exercice 8 : Palindrome
-#￼￼￼￼￼
 #Faire un programme qui vérifie si un mot est un Palindrome.
 
-
+ def palindrome_detector():
+    word = input("Entrez votre mot : ")
+    if word == word[::-1]:
+        return "{} est bien un Palindrome".format(word)
+    else:
+        return "Nope, desole"
+ 
 
 
 #Exercice 9 : Code MORSE
@@ -256,8 +271,41 @@ set2 = {30, 40, 50, 60, 70}
 
 
 
-
 #Exercice 11 : Place de Cinéma
+ferie = True 
+prix = 0
+days = {"week" : ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"], "weekend" : ["Samedi", "Dimanche"]}
+day = str(input("Veuillez indiquer le jour : ")).capitalize()
+age = int(input("Veuillez indiquer votre age : "))
+
+def price_calculator():
+    
+    while ferie == True:
+        prix = prix + 800
+        
+        for day in days["week"]:
+            if day == "Mercredi" and age < 22:
+                prix += 2700 - 1150
+                print("Le prix est {}.".format(prix))
+            else :
+                prix += 2700
+                print("Le prix est {}.".format(prix))
+        
+        for day in days["weekend"]:
+            if day == "Samedi":
+                if age < 14 and age > 65:
+                    prix += 2700 + 1450 - 975
+                    print("Le prix est {}.".format(prix))
+                else:
+                    prix += 2700 + 1450
+                    print("Le prix est {}.".format(prix))
+            if day == "Dimanche":
+                if age < 14 and age > 65:
+                    prix += 2700 + 1200 - 975
+                    print("Le prix est {}.".format(prix))
+                else:
+                    prix += 2700 + 1200
+                    print("Le prix est {}.".format(prix))
 #Ecrire un programme qui calcule le prix d’une place de cinéma selon les conditions suivantes :
 #a. La place coûte 2700f du Lundi au Vendredi ;
 #b. Une augmentation de 1450f est effectuée le Samedi ;
