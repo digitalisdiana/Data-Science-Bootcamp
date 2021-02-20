@@ -13,9 +13,16 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
 ### Day1 {Missing : Exercises 2, 3, and 4}
 ### Day2 {Missing : Exercises 20 onwards}
+### Day3 Complete
+### Day4 Complete
+### Day5 Complete
 
 ## DSI_Week_3_Introduction to Machine Learning
-...
+### Day1 
+### Day2 
+### Day3 Complete
+### Day4 
+### Day5 
 
 ## DSI_Week_4_Relational Database Management Systems
 ...
