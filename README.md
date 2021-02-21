@@ -4,17 +4,18 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 #### Work in progress:
 ######  "Missing" and "Incomplete" exercises will be resolved. 
 ######  "Complete" exercises are likely to be revisited. 
+#### Feel free to branch out and provide alternate solutions! We're all here to learn :)
 
 ## DSI_Week_1_Python Programming Basics
-### Day1 {Missing : Exercise 15}
-### Day2 {Missing : Exercises 9, 10, and 11}
-### Day3 {Missing : Exercises 7, 8, and 10}
-### Day4 {Incomplete : Exercise 5}
-### Day5 {Incomplete : Exercise 2, Missing : Exercises 3, 4, and 5 }
+### Day1 Missing : Exercise 15
+### Day2 Missing : Exercises 9, 10, and 11
+### Day3 Missing : Exercises 7, 8, and 10
+### Day4 Incomplete : Exercise 5
+### Day5 Incomplete : Exercise 2, Missing : Exercises 3, 4, and 5
 
 ## DSI_Week_2_Object Oriented Programming and Introduction to Data Analysis
-### Day1 {Missing : Exercises 2, 3, and 4}
-### Day2 {Missing : Exercises 20 onwards}
+### Day1 Missing : Exercises 2, 3, and 4
+### Day2 Missing : Exercises 20 onwards
 ### Day3 Complete
 ### Day4 Complete
 ### Day5 Complete
