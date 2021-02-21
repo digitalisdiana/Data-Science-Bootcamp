@@ -3,7 +3,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 
 #### Work in progress:
 ######  "Missing" and "Incomplete" exercises will be resolved. 
-######  "Complete" exercises are highly likely to be revisited. 
+######  "Complete" exercises might be revisited. 
 
 ## DSI_Week_1_Python Programming Basics
 ### Day1 {Missing : Exercise 15}
