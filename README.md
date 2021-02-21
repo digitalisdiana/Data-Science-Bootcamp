@@ -2,8 +2,8 @@
 Notebooks and scripts for exercises and mini-projects I am completing as part of Dakar Institute of Technology's Data Science Intensif Bootcamp.
 
 #### Work in progress:
-######  "Missing" exercises will be resolved. 
-######  "Complete" exercises might be revisited. 
+######  "Missing" and "Incomplete" exercises will be resolved. 
+######  "Complete" exercises are highly likely to be revisited. 
 
 ## DSI_Week_1_Python Programming Basics
 ### Day1 {Missing : Exercise 15}
@@ -26,7 +26,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ### Day4 Complete
 ### Day5 Complete
 
-## DSI_Week_4_Relational Database Management Systems
+## DSI_Week_4_More Machine Learning Algorithms
 ...
 
 ## DSI_Week_5_
