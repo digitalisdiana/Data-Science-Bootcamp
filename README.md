@@ -3,7 +3,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 
 #### Work in progress:
 ######  "Missing" and "Incomplete" exercises will be resolved. 
-######  "Complete" exercises are likely to be revisited. 
+######  Most "Complete" exercises are likely to be revisited. 
 #### Feel free to branch out and provide alternate solutions! We're all here to learn :)
 
 ## DSI_Week_1_Python Programming Basics
@@ -22,7 +22,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 
 ## DSI_Week_3_Introduction to Machine Learning
 ### Day1 Complete
-### Day2 Missing : Recommender Systems
+### Day2 Missing : Mini Project
 ### Day3 Complete
 ### Day4 Complete
 ### Day5 Complete
@@ -31,11 +31,15 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ### Day1 Complete
 ### Day2 Complete
 ### Day3 Complete
-### Day4 Missing : 
+### Day4 Missing : Recommender Systems
 ### Day5 Complete
 
-## DSI_Week_5_
-...
+## DSI_Week_5_Relational Database Management Systems
+### Day1 Complete
+### Day2 
+### Day3 
+### Day4 
+### Day5 
 
 ## DSI_Week_6_
 ...
