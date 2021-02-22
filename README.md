@@ -36,7 +36,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 
 ## DSI_Week_5_Relational Database Management Systems
 ### Day1 Complete
-### Day2 
+### Day2 Complete
 ### Day3 
 ### Day4 
 ### Day5 
