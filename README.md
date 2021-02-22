@@ -22,7 +22,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 
 ## DSI_Week_3_Introduction to Machine Learning
 ### Day1 Complete
-### Day2 Missing
+### Day2 Missing : Recommender Systems
 ### Day3 Complete
 ### Day4 Complete
 ### Day5 Complete
@@ -31,8 +31,8 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ### Day1 Complete
 ### Day2 Complete
 ### Day3 Complete
-### Day4 Missing
-### Day5 
+### Day4 Missing : 
+### Day5 Complete
 
 ## DSI_Week_5_
 ...
