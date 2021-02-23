@@ -4,7 +4,7 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 #### Work in progress:
 ######  "Missing" and "Incomplete" exercises will be resolved. 
 ######  Most "Complete" exercises are likely to be revisited. 
-#### Feel free to branch out and provide alternate solutions! We're all here to learn :)
+#### Feel free to branch out and provide alternate solutions! Let's learn together :)
 
 ## DSI_Week_1_Python Programming Basics
 ### Day1 Missing : Exercise 15
