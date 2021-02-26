@@ -42,22 +42,39 @@ Notebooks and scripts for exercises and mini-projects I am completing as part of
 ### Day5 
 
 ## DSI_Week_6_
-...
+### Day1 
+### Day2 
+### Day3 
+### Day4 
+### Day5 
 
-## DSI_Week_7_
-...
+## DSI_Week_7_Machine learning Finale & Introduction to Deep Learning
+### Day1 
+### Day2 
+### Day3 
+### Day4 Complete
+### Day5 Complete
 
-## DSI_Week_8_
-...
+## DSI_Week_8_Deep Learning Algorithms Part2
+### Day1 
+### Day2 
+### Day3 
+### Day4 
+### Day5 
 
-## DSI_Week_9_
-...
+## DSI_Week_9_Deep learning Finale & Introduction to Web Deployment
+### Day1 
+### Day2 
+### Day3 
+### Day4 
+### Day5 
 
-## DSI_Week_10_
-...
+## DSI_Week_10_Web Deployment Part2
+### Day1 
+### Day2 
+### Day3 
+### Day4 
+### Day5 
 
-## DSI_Week_11_
-...
-
-## DSI_Week_12_
-...
+## DSI_Week_11_Student Project Part1
+## DSI_Week_12_Student Project Part1
